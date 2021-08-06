@@ -1,0 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-weight: 600;
+}
+
+#headText {
+  font-weight: 700;
+}
+
+p {
+  margin: 1rem auto;
+}

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <title>DOM lessons</title>
+  </head>
+  <body>
+    <div class="container">
+      <h4 id="paraTitle">Paragraphs</h4>
+      <div class="para">
+        <p class="lead">First Paragrah</p>
+        <p class="lead">Second Paragrah</p>
+        <p class="lead">Third Paragrah</p>
+        <p class="lead">Fourth Paragrah</p>
+        <p class="lead">Fifth Paragrah</p>
+      </div>
+      <a href="#" id="btn" class="btn addMore primary">Read More</a>
+
+      <!-- <div class="row">
+        <form class="col s12">
+          <div class="row">
+            <div class="input-field col s6">
+              <input id="name" type="text" class="validate" />
+              <label for="name">Enter Name</label>
+            </div>
+          </div>
+          <input type="submit" class="btn" value="Submit" />
+        </form>
+      </div> -->
+
+      <form class="col s12" id="input-form">
+        <h2 id="headText">User List</h2>
+        <p class="lead">Hear you can add and delete your user list!</p>
+        <div class="row">
+          <div class="input-field col s6">
+            <input id="first_name" type="text" class="validate" />
+            <label for="first_name">First Name</label>
+          </div>
+          <div class="input-field col s6">
+            <input id="last_name" type="text" class="validate" />
+            <label for="last_name">Last Name</label>
+          </div>
+        </div>
+        <div class="row">
+          <div class="input-field col s12">
+            <input id="email" type="email" class="validate" />
+            <label for="email">Email</label>
+          </div>
+        </div>
+        <div class="row">
+          <div class="input-field col s12">
+            <input id="password" type="password" class="validate" />
+            <label for="password">Password</label>
+          </div>
+        </div>
+
+        <input type="submit" class="btn" value="Submit" />
+      </form>
+    </div>
+    <!-- 
+    <div class="container">
+      <div class="para">
+        <p class="lead">
+          First Paragraph!
+          <a href="#" class="btn btn-delete red secondary-content">Delete</a>
+        </p>
+        <p class="lead">
+          Second Paragraph!
+          <a href="#" class="btn btn-delete red secondary-content">Delete</a>
+        </p>
+        <p class="lead">
+          Third Paragraph!
+          <a href="#" class="btn btn-delete red secondary-content">Delete</a>
+        </p>
+        <p class="lead">
+          Fourth Paragraph!
+          <a href="#" class="btn btn-delete red secondary-content">Delete</a>
+        </p>
+        <p class="lead">
+          Fifth Paragraph!
+          <a href="#" class="btn btn-delete red secondary-content">Delete</a>
+        </p>
+      </div>
+    </div> -->
+
+    <script src="./javaScript.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  </body>
+</html>
